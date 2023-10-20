@@ -1,0 +1,28 @@
+header {
+    display: flex;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+ul {
+    list-style: none;    
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    max-width: 992px;
+    min-width: 320px;
+    margin: auto;
+    justify-content: center;
+}
+
+
+
