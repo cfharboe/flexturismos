@@ -18,6 +18,35 @@ header {
     color:white;
 }
 
+.container {
+    max-width: 992px;
+    min-width: 320;
+    margin: 0 auto;
+}
+
+.container-externo {
+    background-color: #122a57;
+    width: 100%;
+}
+
+#servicos {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#servicos h2 {
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.list-servicos {
+    display: flex;
+    justify-content: space-between;
+}
+
 ul li a {
     text-decoration: none;
     color: white;
@@ -69,7 +98,27 @@ ul li a {
     border-radius: 30px;
     text-align: center;
     line-height: 50px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
+
+.quem-somos {
+    display: flex;
+    flex-direction: row-reverse ;
+}
+
+.quem-somos h2 {
+    font-size: 32px;
+    color: #122a57;
+    margin-bottom: 20px;
+    content: "";
+    border-left: 4px solid #122a57;
+    padding-left: 10px;    
+}
+
+
+
 
 
 
